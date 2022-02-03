@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="avatar.css" />
+
+    <title>Avatar</title>
+  </head>
+  <body>
+    <header>
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="index.html">
+          <img
+            src="../../assets/brand-logo.png"
+            alt="conquering responsive layouts"
+            height="43"
+          />ROBOCON
+        </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Documentation</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fab fa-github fass"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="sidebar">
+        <h2>Components</h2>
+        <ul>
+          <li><a href="#">Alerts</a></li>
+          <li><a href="#">Avatar</a></li>
+          <li><a href="#">Badge</a></li>
+          <li><a href="#">Button</a></li>
+          <li><a href="#">Card</a></li>
+          <li><a href="#">Modal</a></li>
+          <li><a href="#">Navigation</a></li>
+          <li><a href="#">Rating</a></li>
+          <li><a href="#">Toast</a></li>
+        </ul>
+      </div>
+      <div class="main_content">
+        <div class="info">
+          <!-- AVATAR -->
+          <div class="avatar">
+            <h1>Avatar</h1>
+            <h2>Image Avatar</h2>
+            <p>
+              The Avatar component is used to represent a user, and displays the
+              profile picture, initials or fallback icon.
+            </p>
+            <div class="avatar-border">
+              <img
+                class="img-avatar avatar__lg_size"
+                src="https://images.unsplash.com/photo-1579503841516-e0bd7fca5faa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+                alt="avatar"
+              />
+              <img
+                class="img-avatar avatar__md_size"
+                src="https://images.unsplash.com/photo-1579503841516-e0bd7fca5faa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+                alt="avatar"
+              />
+              <img
+                class="img-avatar avatar__sm_size"
+                src="https://images.unsplash.com/photo-1579503841516-e0bd7fca5faa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60"
+                alt="avatar"
+              />
+            </div>
+          </div>
+          <div class="iframe-style">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fb65406ab14d0015c32cea"
+              style="width: 100%; height: 164px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <!-- AVATAR FALL BACKS -->
+          <h2>Avatar Fall Backs</h2>
+          <p>
+            If there is an error loading the src of the avatar, there are 2
+            fallbacks: i.e.set default initials or set default avatar.
+          </p>
+          <div class="avatar-fallbacks avatar-border">
+            <div class="avatar-fb">
+              <p class="avatar-text">SU</p>
+            </div>
+            <div class="avatar-fb">
+              <p class="avatar-text">OK</p>
+            </div>
+            <div class="avatar-fb">
+              <i class="fas fa-user-circle avatar-icon"></i>
+            </div>
+          </div>
+          <div class="iframe-style">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fb66176ab14d0015c32ced"
+              style="width: 100%; height: 203px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
