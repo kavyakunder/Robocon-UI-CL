@@ -1,6 +1,8 @@
 @import "../../commonFiles/navbar.css";
 @import "../../commonFiles/sidebar.css";
 @import "../../commonFiles/commonStyle.css";
+@import "../../commonFiles/base.css";
+
 .alerts-container {
   border: 2px solid rgb(209, 207, 207);
   margin: 1rem;
@@ -18,52 +20,51 @@
 }
 /* primary alert */
 .alert-primary {
-  background-color: #cfe2ff;
-  color: #084fb9;
-  border: 1px solid #c4dcff;
+  background-color: var(--light-bg-blue);
+  color: var(--dark-blue);
+  border: 1px solid var(--light-blue);
 }
 /* Success alert */
 .alert-success {
-  background-color: #d1e7dd;
-  color: #225132;
-  border: 1px solid #c7e2d5;
+  background-color: var(--light-bg-green);
+  color: var(--dark-green);
+  border: 1px solid var(--light-green);
 }
 /* Warning-alert */
 .alert-warning {
-  background-color: #fff3cd;
-  color: #664d03;
-  border: 1px solid #ffecb5;
+  background-color: var(--light-bg-yellow);
+  color: var(--dark-yellow);
+  border: 1px solid var(--light-yellow);
 }
 /* Danger-alert */
 .alert-danger {
-  background-color: #f8d7da;
-  color: #842029;
-  border: 1px solid #f5c2c7;
+  background-color: var(--light-bg-red);
+  color: var(--dark-red);
+  border: 1px solid var(--light-red);
 }
 /* Outline-primary */
 .outline-primary {
-  background: #fff;
-  color: #084fb9;
-  border: 1px solid #084fb9;
+  background: var(--white);
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
 }
 /* Outline-success */
 .outline-success {
-  background-color: #fff;
-  color: #225132;
-  border: 1px solid #225132;
+  background-color: var(--white);
+  color: var(--dark-green);
+  border: 1px solid var(--dark-green);
 }
-
 /* Outline-warning */
 .outline-warning {
-  background-color: #fff;
-  color: #664d03;
-  border: 1px solid #664d03;
+  background-color: var(--white);
+  color: var(--dark-yellow);
+  border: 1px solid var(--dark-yellow);
 }
 /* Outline-danger */
 .outline-danger {
-  background-color: #fff;
-  color: #842029;
-  border: 1px solid #842029;
+  background-color: var(--white);
+  color: var(--dark-red);
+  border: 1px solid var(--dark-red);
 }
 .alerts-error {
   position: relative;
@@ -76,7 +77,7 @@
   margin-right: 10px;
 }
 .close-btn {
-  border: 1px solid darkgray;
+  border: 1px solid var(--dark-grey);
   padding: 20px;
-  color: darkgray;
+  color: var(--dark-grey);
 }
