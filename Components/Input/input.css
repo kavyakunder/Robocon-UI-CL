@@ -1,0 +1,56 @@
+@import "../../commonFiles/navbar.css";
+@import "../../commonFiles/sidebar.css";
+@import "../../commonFiles/commonStyle.css";
+@import "../../commonFiles/base.css";
+
+.input-container {
+  border: 2px solid var(--light-grey-border);
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+label {
+  font-size: 1rem;
+  padding: 1rem;
+}
+.basic {
+  font-size: 1rem;
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #c2c2c2;
+  border-radius: 3px;
+  margin: 0.3rem;
+}
+.basic:focus {
+  outline: none;
+  border: 3px solid var(--green);
+}
+.color-changing:focus {
+  outline: none;
+  border: 2px solid var(--blue);
+}
+.filled {
+  background-color: #c4bdbd;
+}
+.filled:focus {
+  background-color: var(--white);
+}
+.flushed {
+  outline: none;
+  border: hidden;
+  border-bottom: 1px solid var(--primary-color);
+}
+.flushed:focus {
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  border-bottom-color: var(--dark-grey);
+}
+.unstyled,
+.unstyled:focus {
+  outline: none;
+  border: hidden;
+}
+.inline-block {
+  display: inline-block;
+}
