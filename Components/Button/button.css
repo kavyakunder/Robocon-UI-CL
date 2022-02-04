@@ -1,0 +1,90 @@
+@import "../../commonFiles/navbar.css";
+@import "../../commonFiles/sidebar.css";
+@import "../../commonFiles/commonStyle.css";
+@import "../../commonFiles/base.css";
+
+.btn {
+  cursor: pointer;
+  padding: 0.5em 1rem;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: 3px solid var(--primary-color);
+  margin: 2rem;
+}
+.btn-container {
+  border: 2px solid var(--light-grey-border);
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.btn-primary {
+  background-color: var(--light-bg-blue);
+  color: var(--dark-blue);
+  border: 1px solid var(--light-blue);
+}
+/* Success alert */
+.btn-success {
+  background-color: var(--light-bg-green);
+  color: var(--dark-green);
+  border: 1px solid var(--light-green);
+}
+/* Warning-alert */
+.btn-warning {
+  background-color: var(--light-bg-yellow);
+  color: var(--dark-yellow);
+  border: 1px solid var(--light-yellow);
+}
+/* Danger-alert */
+.btn-danger {
+  background-color: var(--light-bg-red);
+  color: var(--dark-red);
+  border: 1px solid var(--light-red);
+}
+/* Outline btn */
+.btn-outline-primary {
+  background: var(--white);
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+}
+/* Outline-success */
+.btn-outline-success {
+  background-color: var(--white);
+  color: var(--dark-green);
+  border: 1px solid var(--dark-green);
+}
+/* Outline-warning */
+.btn-outline-warning {
+  background-color: var(--white);
+  color: var(--dark-yellow);
+  border: 1px solid var(--dark-yellow);
+}
+/* Outline-danger */
+.btn-outline-danger {
+  background-color: var(--white);
+  color: var(--dark-red);
+  border: 1px solid var(--dark-red);
+}
+.link-btn a {
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 2rem;
+}
+.link-btn a:hover {
+  color: var(--primary-color);
+}
+.icon-btns a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin: 2rem;
+}
+.icon-btns a:hover {
+  color: var(--primary-color);
+}
+/* Floating Button */
+.floating-btn {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  text-align: center;
+}
