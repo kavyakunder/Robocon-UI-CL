@@ -1,0 +1,79 @@
+@import "../../commonFiles/navbar.css";
+@import "../../commonFiles/sidebar.css";
+@import "../../commonFiles/commonStyle.css";
+@import "../../commonFiles/base.css";
+
+.badge-container {
+  border: 2px solid var(--light-grey-border);
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.img-avatar {
+  border-radius: 50%;
+}
+.avatar__lg_size {
+  width: 8rem;
+  height: 8rem;
+}
+.avatar__md_size {
+  width: 6rem;
+  height: 6rem;
+}
+.avatar__sm_size {
+  width: 4rem;
+  height: 4rem;
+}
+.image-badge {
+  margin: 1rem;
+  position: relative;
+  display: inline-block;
+}
+.red {
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: var(--red);
+  position: absolute;
+  bottom: 1rem;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  right: 5px;
+}
+.green {
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: var(--green);
+  position: absolute;
+  bottom: 1rem;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  right: 5px;
+}
+.brb {
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: var(--grey);
+  position: absolute;
+  bottom: 1rem;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  right: 5px;
+}
+.badge-icon-main {
+  margin: 2rem;
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+.badge-icon {
+  font-size: 1rem;
+  position: absolute;
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  text-align: center;
+  top: -15px;
+  right: -2px;
+}
