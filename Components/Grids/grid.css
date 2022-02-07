@@ -10,7 +10,7 @@
   border-radius: 10px;
 }
 .grid-img-container {
-  background-color: brown;
+  background-color: var(--red-brown);
 }
 .grid-img {
   max-width: 100%;
