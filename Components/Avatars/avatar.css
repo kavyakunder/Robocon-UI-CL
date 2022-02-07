@@ -1,0 +1,51 @@
+@import "../../commonFiles/navbar.css";
+@import "../../commonFiles/sidebar.css";
+@import "../../commonFiles/commonStyle.css";
+@import "../../commonFiles/base.css";
+
+.avatar-border {
+  border: 2px solid var(--light-grey-border);
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+/* AVATAR */
+.img-avatar {
+  border-radius: 50%;
+}
+.avatar__lg_size {
+  width: 8rem;
+  height: 8rem;
+}
+.avatar__md_size {
+  width: 6rem;
+  height: 6rem;
+}
+.avatar__sm_size {
+  width: 4rem;
+  height: 4rem;
+}
+/* Text Avatar */
+.avatar-fb {
+  margin: 1rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  background-color: var(--brown);
+  color: var(--pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-fallbacks {
+  display: flex;
+}
+.avatar-text {
+  font-size: 2.5rem;
+  color: var(--sky-blue);
+}
+.avatar-icon {
+  text-align: center;
+  font-size: 4rem;
+  color: var(--grey);
+}
