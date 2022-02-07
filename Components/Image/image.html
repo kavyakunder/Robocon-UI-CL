@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="image.css" />
+    <title>Image Component</title>
+  </head>
+  <body>
+    <header>
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="index.html">
+          <img
+            src="../../assets/brand-logo.png"
+            alt="conquering responsive layouts"
+            height="43"
+          />ROBOCON
+        </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Documentation</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fab fa-github fass"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="sidebar">
+        <h2>Components</h2>
+        <ul>
+          <li><a href="#">Alerts</a></li>
+          <li><a href="#">Avatar</a></li>
+          <li><a href="#">Badge</a></li>
+          <li><a href="#">Button</a></li>
+          <li><a href="#">Card</a></li>
+          <li><a href="#">Modal</a></li>
+          <li><a href="#">Navigation</a></li>
+          <li><a href="#">Rating</a></li>
+          <li><a href="#">Toast</a></li>
+        </ul>
+      </div>
+      <div class="main_content">
+        <div class="info">
+          <!-- AVATAR -->
+          <h1>Image</h1>
+          <h2>Image Responsive</h2>
+          <p>
+            Responsive images will automatically adjust to fit the size of the
+            screen.
+          </p>
+          <div class="container-border">
+            <div class="responsive-image">
+              <img
+                src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGVjaG5vbG9neXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
+                src="shorturl.at/ixP47"
+                alt="Techology"
+                class="responsive"
+              />
+            </div>
+          </div>
+          <div class="iframe-style">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fb85ed6ab14d0015c32d13"
+              style="width: 100%; height: 99px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <!-- AVATAR FALL BACKS -->
+          <h2>Resposive Image with fixed max-width</h2>
+          <p>
+            With fixed max-width it is possible to scale down an image if it has
+            to, but never scale up to be larger than its original size.
+          </p>
+          <div class="container-border">
+            <div class="responsive-image">
+              <img
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dGVjaG5vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                src="shorturl.at/qDINV"
+                alt="Technology"
+                class="responsive-max-width"
+                width="600"
+                height="400"
+              />
+            </div>
+          </div>
+          <div class="iframe-style">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fb86416ab14d0015c32d14"
+              style="width: 100%; height: 99px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
