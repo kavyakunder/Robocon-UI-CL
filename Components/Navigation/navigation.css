@@ -1,0 +1,48 @@
+@import "../../commonFiles/navbar.css";
+@import "../../commonFiles/sidebar.css";
+@import "../../commonFiles/commonStyle.css";
+@import "../../commonFiles/base.css";
+
+.navigation-border {
+  border: 2px solid var(--light-grey-border);
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.navbar {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+  height: 5rem;
+}
+.navbar img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  justify-content: space-evenly;
+}
+.nav-items ul li {
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+}
+.nav-items ul li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.nav-items ul li a:hover {
+  color: var(--white);
+}
+.nav-items i {
+  display: inline-block;
+  padding: 1rem;
+}
+.nav-items i:hover {
+  color: var(--white);
+}
