@@ -1,0 +1,61 @@
+@import "../../commonFiles/navbar.css";
+@import "../../commonFiles/sidebar.css";
+@import "../../commonFiles/commonStyle.css";
+@import "../../commonFiles/base.css";
+
+.list-border {
+  border: 2px solid var(--light-grey-border);
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.list-container {
+  border: 1px solid var(--light-grey-border);
+  background-color: var(--light-grey);
+  padding: 0.4rem;
+  width: 40%;
+  display: flex;
+  border-radius: 10px;
+}
+.list-container img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.content-icons {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.content-icons i {
+  font-weight: 500;
+}
+.dom-name {
+  font-size: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.horizontal-list {
+  display: flex;
+  justify-content: center;
+}
+.vertical-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ul-list {
+  margin: auto;
+  font-size: 1.05rem;
+  padding: 1.3rem;
+  width: 30%;
+  background-color: var(--light-grey);
+  border: 2px solid var(--light-grey-border);
+  border-radius: 10px;
+}
+.ul-list li {
+  list-style-type: disc;
+}
