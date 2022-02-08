@@ -1,0 +1,153 @@
+@import "../../commonFiles/navbar.css";
+@import "../../commonFiles/sidebar.css";
+@import "../../commonFiles/commonStyle.css";
+@import "../../commonFiles/base.css";
+
+.cards-container {
+  border: 2px solid var(--light-grey-border);
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  height: 23rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px #bbbbbb;
+  background-color: var(--white);
+  margin: 5px;
+}
+
+.card-img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-main:hover {
+  background-color: #f5f5f5;
+  opacity: 1;
+}
+
+.card-info {
+  padding: 1.6px 16px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link-icon {
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.link-icon:hover {
+  background-color: #f8bad9;
+}
+
+.btn-cart {
+  font-size: 1.1rem;
+  color: var(--orange);
+  border: none;
+  background-color: var(--white);
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.btn-cart:hover {
+  background-color: #ffe1a9;
+}
+
+.main-title {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.bold-info {
+  font-size: 15px;
+  color: var(--light-grey-border);
+  font-weight: 600;
+}
+
+.card-info p {
+  font-size: 14px;
+  color: var(--light-grey-border);
+}
+
+.card-with-close {
+  position: relative;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #000;
+  padding: 2px;
+  background-color: var(--white);
+}
+
+/* With Badges */
+.card-with-badge {
+  position: relative;
+}
+
+.card-badge {
+  position: absolute;
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 10px;
+  top: 10px;
+  left: 0px;
+  border-radius: 0 5px 5px 0;
+}
+
+/*  Text Only */
+.card-text-only {
+  height: 14rem;
+}
+
+/* overlay-card */
+.cards-container {
+  position: relative;
+}
+
+.overlay-text {
+  font-size: 2rem;
+  position: absolute;
+  left: 33.5rem;
+  top: 10rem;
+}
+
+.card-overlay {
+  background: #eeee;
+  opacity: 0.6;
+}
+/* Horizontal-card */
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.horizontal-img {
+  height: 7rem;
+  width: 7rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 0 0 0;
+}
+
+.horizontal-dim {
+  height: 10rem;
+  width: 20rem;
+}

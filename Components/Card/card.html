@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="card.css" />
+    <title>Cards Component</title>
+  </head>
+  <body>
+    <header>
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="#">
+          <img
+            src="../../assets/brand-logo.png"
+            alt="conquering responsive layouts"
+            height="43"
+          />ROBOCON
+        </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Documentation</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fab fa-github fass"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="sidebar">
+          <h2>Components</h2>
+          <ul>
+            <li><a href="#">Alerts</a></li>
+            <li><a href="#">Avatar</a></li>
+            <li><a href="#">Badge</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Card</a></li>
+            <li><a href="#">Modal</a></li>
+            <li><a href="#">Navigation</a></li>
+            <li><a href="#">Rating</a></li>
+            <li><a href="#">Toast</a></li>
+          </ul>
+        </div>
+        <div class="main_content">
+          <div class="info">
+            <div class="avatar avatar-border">
+              <h1>Cards</h1>
+              <h2>Badge with Image</h2>
+              <p>
+                Cards are used to highlight an item's status for quick
+                recognition.
+              </p>
+              <!-- first card -->
+              <div class="cards-container">
+                <div class="card">
+                  <div class="card-main">
+                    <img
+                      class="card-img"
+                      src="https://images.unsplash.com/photo-1553406830-ef2513450d76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                    <div class="card-info">
+                      <h1 class="main-title">Arduino UNO</h1>
+                      <p class="bold-info">₹ 1,599.00</p>
+                      <p>
+                        It is a breadboard-friendly board based on the
+                        ATmega328P from Arduino.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="actions">
+                    <a class="link-icon">
+                      <i class="icon far fa-heart fa-lg"></i
+                    ></a>
+                    <a class="link-icon">
+                      <i class="icon fas fa-share-alt fa-lg"></i
+                    ></a>
+                    <button class="btn-cart">
+                      <i class="fas fa-shopping-cart"></i>Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="iframe-style">
+                <iframe
+                  src="https://www.thiscodeworks.com/embed/61fc26e96ab14d0015c32de8"
+                  style="width: 100%; height: 411px; font-size: 2rem"
+                  frameborder="0"
+                ></iframe>
+              </div>
+              <!-- card with dismiss-->
+              <h2>Card with Dismiss</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Architecto, deserunt?
+              </p>
+              <div class="cards-container">
+                <div class="card">
+                  <div class="card-main">
+                    <div class="card-with-close">
+                      <img
+                        class="card-img cross"
+                        src="https://images.unsplash.com/photo-1553406830-ef2513450d76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                      />
+                      <button class="close-icon">
+                        <i class="icon fas fa-times fa-lg"></i>
+                      </button>
+                    </div>
+                    <div class="card-info">
+                      <h1 class="main-title">Arduino UNO</h1>
+                      <p class="bold-info">₹ 1,599.00</p>
+                      <p>
+                        It is a breadboard-friendly board based on the
+                        ATmega328P from Arduino.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="actions">
+                    <a class="link-icon">
+                      <i class="icon far fa-heart fa-lg"></i
+                    ></a>
+                    <a class="link-icon">
+                      <i class="icon fas fa-share-alt fa-lg"></i
+                    ></a>
+                    <button class="btn-cart">
+                      <i class="fas fa-shopping-cart"></i>Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="iframe-style">
+                <iframe
+                  src="https://www.thiscodeworks.com/embed/61fc2bba6ab14d0015c32df0"
+                  style="width: 100%; height: 450px"
+                  frameborder="0"
+                ></iframe>
+              </div>
+              <!-- Card with Badge -->
+              <h2>Card with Badge</h2>
+              <p>Card with Badge is used to attract some feature.</p>
+              <div class="cards-container">
+                <div class="card">
+                  <div class="card-main">
+                    <div class="card-with-badge">
+                      <div class="card-badge">New</div>
+                      <img
+                        class="card-img cross"
+                        src="https://images.unsplash.com/photo-1553406830-ef2513450d76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-info">
+                      <h1 class="main-title">Arduino UNO</h1>
+                      <p class="bold-info">₹ 1,599.00</p>
+                      <p>
+                        It is a breadboard-friendly board based on the
+                        ATmega328P from Arduino.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="actions">
+                    <a class="link-icon">
+                      <i class="icon far fa-heart fa-lg"></i
+                    ></a>
+                    <a class="link-icon">
+                      <i class="icon fas fa-share-alt fa-lg"></i
+                    ></a>
+                    <button class="btn-cart">
+                      <i class="fas fa-shopping-cart"></i>Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="iframe-style">
+                <iframe
+                  src="https://www.thiscodeworks.com/embed/61fc2ed16ab14d0015c32dfa"
+                  style="width: 100%; height: 411px"
+                  frameborder="0"
+                ></iframe>
+              </div>
+              <!-- Card with Text -->
+              <h2>Cards with Text Only</h2>
+              <p>Card contains information and description</p>
+              <div class="cards-container">
+                <div class="card card-text-only">
+                  <div class="card-info">
+                    <h1 class="main-title">Arduino UNO</h1>
+                    <p>
+                      Arduino is a small popular electronic machine that makes
+                      it very easy for people to make electronic things. It has
+                      two parts: a circuit board and a program that lets people
+                      tell the circuit board what to do. As of 2011, more than
+                      300,000 Arduinos had been sold.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="iframe-style">
+                <iframe
+                  src="https://www.thiscodeworks.com/embed/61fc2c006ab14d0015c32df1"
+                  style="width: 100%; height: 242px"
+                  frameborder="0"
+                ></iframe>
+              </div>
+              <!-- Card with Overlay -->
+              <h2>Card with Overlay</h2>
+              <p>
+                Overlay is used to set one thing on the top of another. The
+                overlay makes a web-page attractive, and it is easy to design.
+              </p>
+              <div class="cards-container">
+                <div class="card card-overlay">
+                  <div class="card-main">
+                    <img
+                      class="card-img cross"
+                      src="https://images.unsplash.com/photo-1553406830-ef2513450d76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                    <div class="card-info">
+                      <h1 class="main-title">Arduino UNO</h1>
+                      <p class="bold-info">₹ 1,599.00</p>
+                      <p>
+                        It is a breadboard-friendly board based on the
+                        ATmega328P from Arduino.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="actions">
+                    <a class="link-icon">
+                      <i class="icon far fa-heart fa-lg"></i
+                    ></a>
+                    <a class="link-icon">
+                      <i class="icon fas fa-share-alt fa-lg"></i
+                    ></a>
+
+                    <button class="btn-cart">
+                      <i class="fas fa-shopping-cart"></i>Add to Cart
+                    </button>
+                  </div>
+                </div>
+                <div class="overlay-text">Out of Stock</div>
+              </div>
+              <div class="iframe-style">
+                <iframe
+                  src="https://www.thiscodeworks.com/embed/61fc2ce56ab14d0015c32df5"
+                  style="width: 100%; height: 398px"
+                  frameborder="0"
+                ></iframe>
+              </div>
+              <!-- Card hORIZONTAL -->
+              <h2>Horizontal Card</h2>
+              <p>
+                Horizontal Card contains important contents only like image and
+                title.
+              </p>
+              <div class="cards-container">
+                <div class="card horizontal-dim">
+                  <div class="horizontal">
+                    <img
+                      class="horizontal-img"
+                      src="https://images.unsplash.com/photo-1553406830-ef2513450d76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXJkdWlub3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                    <div class="card-info">
+                      <h1 class="main-title">Arduino UNO</h1>
+                      <p class="bold-info">₹ 1,599.00</p>
+                    </div>
+                  </div>
+                  <div class="actions">
+                    <a class="link-icon">
+                      <i class="icon far fa-heart fa-lg"></i
+                    ></a>
+                    <a class="link-icon">
+                      <i class="icon fas fa-share-alt fa-lg"></i
+                    ></a>
+                    <button class="btn-cart">
+                      <i class="fas fa-shopping-cart"></i>Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="iframe-style">
+                <iframe
+                  src="https://www.thiscodeworks.com/embed/61fc2e0d6ab14d0015c32df9"
+                  style="width: 100%; height: 320px"
+                  frameborder="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
