@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  box-shadow: 20px 20px 50px #bbbbbb;
+  box-shadow: 10px 10px 20px #bbbbbb;
   background-color: var(--white);
   margin: 5px;
 }
@@ -74,13 +74,13 @@
 
 .bold-info {
   font-size: 15px;
-  color: var(--light-grey-border);
+  color: var(--grey);
   font-weight: 600;
 }
 
 .card-info p {
   font-size: 14px;
-  color: var(--light-grey-border);
+  color: var(--grey);
 }
 
 .card-with-close {
@@ -113,7 +113,7 @@
 
 /*  Text Only */
 .card-text-only {
-  height: 14rem;
+  min-height: 14rem;
 }
 
 /* overlay-card */
