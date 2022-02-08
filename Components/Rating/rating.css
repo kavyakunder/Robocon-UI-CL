@@ -1,0 +1,23 @@
+@import "../../commonFiles/navbar.css";
+@import "../../commonFiles/sidebar.css";
+@import "../../commonFiles/commonStyle.css";
+@import "../../commonFiles/base.css";
+
+.rating-border {
+  border: 2px solid var(--light-grey-border);
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.rating-container {
+  padding: 1rem;
+}
+.rating-container i {
+  padding: 8px;
+}
+.checked {
+  color: var(--red);
+}
+.unchecked:hover {
+  color: var(--light-red);
+}
