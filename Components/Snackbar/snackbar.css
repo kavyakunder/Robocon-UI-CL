@@ -17,7 +17,7 @@
 .btn {
   margin: 5rem;
   padding: 0.6rem 1.2rem;
-  border-radius: 5px;
+  border-radius: var(--size-s-5);
   border: 1px solid var(--secondary-color);
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -32,15 +32,15 @@
   padding: 20px 20px;
   background-color: var(--secondary-color);
   color: var(--white);
-  margin: 5px;
-  border-radius: 5px;
+  margin: var(--size-s-5);
+  border-radius: var(--size-s-5);
 }
 
 .span-action {
   padding: 10px;
   color: var(--primary-color);
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: var(--size-s-5);
 }
 
 .snackbar-icon {
@@ -58,7 +58,7 @@
 .leading {
   position: absolute;
   left: 35rem;
-  bottom: 0rem;
+  bottom: 0;
 }
 .baseline {
   position: absolute;
