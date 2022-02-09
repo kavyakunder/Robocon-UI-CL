@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="modal.css" />
+    <title>Modal Component</title>
+  </head>
+  <body>
+    <header>
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="index.html">
+          <img
+            src="../../assets/brand-logo.png"
+            alt="brand-logo"
+            height="43"
+          />ROBOCON
+        </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Documentation</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fab fa-github fass"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="sidebar">
+        <h2>Components</h2>
+        <ul>
+          <li><a href="#">Alerts</a></li>
+          <li><a href="#">Avatar</a></li>
+          <li><a href="#">Badge</a></li>
+          <li><a href="#">Button</a></li>
+          <li><a href="#">Card</a></li>
+          <li><a href="#">Modal</a></li>
+          <li><a href="#">Navigation</a></li>
+          <li><a href="#">Rating</a></li>
+          <li><a href="#">Toast</a></li>
+        </ul>
+      </div>
+      <div class="main_content">
+        <div class="info">
+          <h1>Modal</h1>
+          <h2>Modal with dismiss</h2>
+          <p>
+            Modals display content that temporarily blocks interactions with the
+            main view of the UI.
+          </p>
+          <div class="modal-border">
+            <div class="modal-container">
+              <a href="#modalbox" class="modal-link link-undecorated"
+                >Click to open</a
+              >
+            </div>
+            <div id="modalbox" class="modal">
+              <div class="modal-content">
+                <h2>This is the title</h2>
+                <p>
+                  The body of the modal, where you can show a message in single
+                  or multi-line. Even include a video. <br />
+                  For example, embed a youtube video! OR <br />
+                  Add some picture.
+                </p>
+                <a href="#" class="modal-close link-undecorated">&times;</a>
+              </div>
+            </div>
+          </div>
+          <div class="iframe-style">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fffce34dd44f0015f3cc78"
+              style="width: 100%; height: 255px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
