@@ -10,11 +10,11 @@
   border-radius: 10px;
 }
 label {
-  font-size: 1rem;
+  font-size: var(--size-1);
   padding: 1rem;
 }
 .basic {
-  font-size: 1rem;
+  font-size: var(--size-1);
   width: 100%;
   padding: 1em;
   border: 1px solid #c2c2c2;
