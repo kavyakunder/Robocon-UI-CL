@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="input.css" />
+    <title>Input Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="#">
+          <img
+            src="../../assets/brand-logo.png"
+            alt="conquering responsive layouts"
+            height="43"
+          />ROBOCON
+        </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Documentation</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fab fa-github fass"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="sidebar">
+        <h2>Components</h2>
+        <ul>
+          <li><a href="#">Alerts</a></li>
+          <li><a href="#">Avatar</a></li>
+          <li><a href="#">Badge</a></li>
+          <li><a href="#">Button</a></li>
+          <li><a href="#">Card</a></li>
+          <li><a href="#">Modal</a></li>
+          <li><a href="#">Navigation</a></li>
+          <li><a href="#">Rating</a></li>
+          <li><a href="#">Toast</a></li>
+        </ul>
+      </div>
+      <div class="main_content">
+        <div class="info">
+          <h1>Inputs</h1>
+          <h2>Simple Input</h2>
+          <p>
+            The Input component is a component that is used to get user input in
+            a text field.
+          </p>
+          <div class="inputs">
+            <div class="input-container">
+              <label for="">Type here the input</label>
+              <input class="basic" type="text" " />
+            </div>
+            <div class="iframe-style">
+              <iframe
+                src="https://www.thiscodeworks.com/embed/61fb9cb66ab14d0015c32d21"
+                style="width: 100%; height: 99px"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+          <!-- VARIANTS OF INPUTS -->
+          <h2>Variants of Inputs</h2>
+          <p>
+            The input component comes in 4 variants: outline, unstyled, flushed,
+            and filled
+          </p>
+          <div class="inputs">
+            <div class="input-container">
+              <label for="inputs">Type here the input</label>
+              <input
+                class="color-changing basic"
+                type="text"
+                placeholder="Outline"
+              />
+              <input class="filled basic" type="text" placeholder="Outline" />
+              <input class="flushed basic" type="text" placeholder="Flushed" />
+              <input
+                class="unstyled basic"
+                type="text"
+                placeholder="Unstyled"
+              />
+            </div>
+            <div class="iframe-style">
+              <iframe
+                src="https://www.thiscodeworks.com/embed/61fb9c1d6ab14d0015c32d20"
+                style="width: 100%; height: 138px"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+          <!-- RADIO BUTTONS -->
+          <h2>Radio Buttons</h2>
+          <p>
+            Radio buttons for questions where you want the user to only give you
+            one answer out of multiple options
+          </p>
+          <div class="input-container">
+            <p>Please select your favorite Web language:</p>
+              <input type="radio" name="fav_language" value="Javascript" />  
+            <label for="javascript">Javascript</label><br />
+              <input type="radio" name="fav_language" value="C++" />  
+            <label for="c++">C++</label><br />
+             
+            <input type="radio" name="fav_language" value="Python" />
+              <label for="python">Python</label>
+          </div>
+          <div class="iframe-style">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fb9d666ab14d0015c32d23"
+              style="width: 100%; height: 164px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <!-- Checkboxes -->
+          <h2>Checkboxes</h2>
+          <p>
+            Checkboxes are for questions that may have more than one answer.
+          </p>
+          <div class="input-container">
+            <p>Select areas of Interest</p>
+            <input type="checkbox" name="coding" value="Coding" />
+            <label for="coding"> Coding</label><br />
+            <input
+              type="checkbox"
+              id="painting"
+              name="painting"
+              value="Painting"
+            />
+            <label for="painting"> Painting</label><br />
+            <input
+              type="checkbox"
+              id="singing"
+              name="singing"
+              value="Singing"
+            />
+            <label for="singing"> Singing</label><br />
+          </div>
+          <div class="iframe-style">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61fb9d126ab14d0015c32d22"
+              style="width: 100%; height: 164px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
