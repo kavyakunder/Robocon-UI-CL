@@ -1,7 +1,4 @@
-/* 
-original
-background-color: #38cfd9;
-  */
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 *,
 *::before,
@@ -43,10 +40,8 @@ p {
   text-decoration: none;
   color: #23424a;
   font-weight: 400;
-  /* letter-spacing: 1px; */
   background: #06b6d4;
   font-size: 1.5rem;
-  /* background-color: #38cfd9; */
   padding: 0.5em 1em;
   border-radius: 12px;
   margin: 0.2em;
@@ -60,21 +55,18 @@ p {
 .btn:focus {
   color: #fff;
   background-color: #0891b2;
-  /* opacity: 0.75; */
 }
 
 .container {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
-  /* added for nav-toggle positioning */
   position: relative;
 }
 
 header {
   background: #06b6d4;
   color: #164e63;
-  /* background: #136c72; */
   padding: 1em 0;
   text-align: center;
 }
@@ -131,10 +123,6 @@ header {
   transform: translateY(3px);
 }
 
-/* made changes here from video
-   to make it more accessible.
-   
-   Works the same :) */
 .nav {
   visibility: hidden;
   height: 0;
@@ -158,8 +146,7 @@ header {
 .nav__link {
   color: #fff;
   color: #164e63;
-
-  text-decoration: none;
+ text-decoration: none;
 }
 .nav__list--primary {
   margin-bottom: 2em;
@@ -177,7 +164,6 @@ header {
 }
 .logo {
   display: flex;
-  /* height: 30px; */
   font-size: 2rem;
   text-decoration: none;
   font-weight: 700;
@@ -186,11 +172,9 @@ header {
 
 .hero {
   padding: 70px 0 20px;
-  /* color:#0E7490; */
   color: #1e293b;
 
-  /* background-color: #23424a; */
-  /* color: #fff; */
+ 
 }
 /* iframe */
 iframe {
@@ -211,8 +195,7 @@ iframe {
 .sidebar {
   padding: 1em;
   text-align: center;
-  /* color: #fff; */
-  /* background-color: #136c72; */
+ 
 }
 
 @media (min-width: 800px) {
