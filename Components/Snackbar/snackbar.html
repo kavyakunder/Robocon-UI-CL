@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="snackbar.css" />
+    <title>Snackbar Component</title>
+  </head>
+  <body>
+    <header>
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="index.html">
+          <img
+            src="../../assets/brand-logo.png"
+            alt="conquering responsive layouts"
+            height="43"
+          />ROBOCON
+        </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Documentation</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="fab fa-github fass"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="sidebar">
+        <h2>Components</h2>
+        <ul>
+          <li><a href="#">Alerts</a></li>
+          <li><a href="#">Avatar</a></li>
+          <li><a href="#">Badge</a></li>
+          <li><a href="#">Button</a></li>
+          <li><a href="#">Card</a></li>
+          <li><a href="#">Modal</a></li>
+          <li><a href="#">Navigation</a></li>
+          <li><a href="#">Rating</a></li>
+          <li><a href="#">Toast</a></li>
+        </ul>
+      </div>
+      <div class="main_content">
+        <div class="info">
+          <h1>Snackbar</h1>
+          <h2>Snackbar with dismiss</h2>
+          <p>
+            Snackbars inform users of a process that an app has performed or
+            will perform.
+          </p>
+          <div class="snackbar-border">
+            <button class="btn btn-baseline">BASELINE</button>
+            <button class="btn btn-leading">LEADING</button>
+          </div>
+          <div class="snackbar-area">
+            <div class="message-border">
+              <div class="snackbar baseline hide">
+                Can't send photo. Retry in 5 seconds.<span class="span-action"
+                  >RETRY</span
+                ><i class="fas fa-times snackbar-icon"></i>
+              </div>
+              <div class="snackbar leading hide">
+                Your photo has been archived..<span class="span-action"
+                  >UNDO</span
+                ><i class="fas fa-times snackbar-icon"></i>
+              </div>
+            </div>
+          </div>
+          <div class="iframe-style">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62014cd0ed723a001551bff9"
+              style="width: 100%; height: 268px"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <h2>Javascript</h2>
+          <div class="iframe-style">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/62014d46ed723a001551bffb"
+              style="width: 100%; height: 359px"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="snackbar.js"></script>
+  </body>
+</html>
