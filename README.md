@@ -1,6 +1,5 @@
 # Robocon-UI-CL
-Robostore is an excellent ecommerce app for buying electronics components.
-
+Robocon UI is a ready to use and compact component library for all your projects!
 ## Features
 <ol>
 
